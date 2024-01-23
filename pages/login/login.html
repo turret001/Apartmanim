@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/styles/style.css" />
+  <link rel="stylesheet" href="/assets/styles/login.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div id="login-wrapper">
+    <div id="login-left">
+      <div id="form-wrapper">
+        <div id="login-left-top">
+          <h1>Oturum Aç</h1>
+          <p>Hesabınıza giriş yapın</p>
+        </div>
+        <div id="login-left-bottom">
+          <form action="/login" method="POST">
+            <div class="form-group">
+              <label for="email">Eposta</label>
+              <input type="email" name="email" placeholder="Email adresiniz" />
+            </div>
+            <div class="form-group">
+              <label for="password">Parola</label>
+              <input type="password" name="password" placeholder="Parolanız" />
+            </div>
+            <div class="form-group">
+              <button type="submit">Oturum Aç</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+    <div id="login-right">
+      <div id="login-right-general">
+        <h1>Apartman Yönetim</h1>
+        <!-- <p>buraya ufak bir açıklama veya motto gibi yazı gelebilir</p> -->
+        <p>Kullanıcı e-posta adresini girdikten sonra parola kısmına tıkladığında arkaplanda database'i kontrol et, apartmanın logosu varsa alttaki resmi onunla değiştir.</p>
+      </div>
+      <div id="login-right-info">
+        <!-- Kullanıcı e-posta adresini girdikten sonra parola kısmına tıkladığında arkaplanda database'i kontrol et, apartmanın logosu varsa alttaki resmi onunla değiştir. -->
+        <img src="/assets/images/defaultapartment.png" alt="Apartman"/> 
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>

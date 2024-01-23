@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+/* css reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* css reset */
+
+
+:root {
+  --lightest-blue: rgb(209, 229, 252);
+  --light-blue: rgb(174, 210, 248);
+  --medium-blue: rgb(138, 190, 243);
+  --dark-blue: rgb(103, 170, 239);
+  --darkest-blue: rgb(68, 150, 234);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* Normal */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; /* Bold */
+}

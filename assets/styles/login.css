@@ -1,0 +1,56 @@
+:root {
+  --lightest-blue: rgb(209, 229, 252);
+  --light-blue: rgb(174, 210, 248);
+  --medium-blue: rgb(138, 190, 243);
+  --dark-blue: rgb(103, 170, 239);
+  --darkest-blue: rgb(68, 150, 234);
+}
+
+#login-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+#login-left{
+  padding: 2rem;
+  flex: 1.5;
+  height: 100vh;
+  background-image: url(/assets/images/skylinebg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size:contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--lightest-blue);
+  padding: 2rem;
+  flex: 1;
+}
+
+#login-right-general{
+  text-align: center;
+}
+
+#login-right-info{
+  text-align: center;
+}
+
+#login-right-info img{
+  width: 80%;
+}
+
+#form-wrapper{
+  width: fit-content;
+  background-color: var(--light-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
